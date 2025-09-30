@@ -16,11 +16,11 @@ I have added 5 pages:
 5. The contact page is a form with fields for name, email, and message. Submissions trigger a friendly JavaScript alert.
 
 # HTML Elements I used
-- "<header>", "<main>", "<footer>" for page structure 
-- "<section>", "<article>", "<ol>","<ul>" to group related content like the timeline events, highlights and stats
-- "<table>" for structured cricket stats 
-- "<form>" for message from the viewers
-- "<nav>" for navigation purposes, with both a top nav bar and a responsive off-canvas sidebar
+- "<  header  >", "<  main  >", "<  footer  >" for page structure 
+- "<  section  >", "<  article  >", "<  ol  >","<  ul  >" to group related content like the timeline events, highlights and stats
+- "<  table  >" for structured cricket stats 
+- "<  form  >" for message from the viewers
+- "<  nav  >" for navigation purposes, with both a top nav bar and a responsive off-canvas sidebar
 
 # CSS styles 
 - I used theming where I allowed the users to play with dark and light dark themese using variables :root and .theme-dark
