@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Srushti Chavan — Statistics</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div id="content-wrapper">
+    <header>
+      <a href="index.html" class="logo">SC</a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="index.html">Home</a><a href="timeline.html">Career Timeline</a>
+        <a href="stats.html">Statistics</a><a href="highlights.html">Highlights</a><a href="contact.html">Contact</a>
+      </nav>
+      <button id="menuToggle" class="menu-icon" aria-label="Open menu" aria-controls="offCanvasMenu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </header>
+
+    <main class="stats-page">
+        <h2 class="category-heading">Analytics</h2>
+        <h1 class="main-title">Srushti's Statistics</h1>
+
+        <section class="stats-section card-style">
+            <h2 class="sub-heading">Batting Statistics</h2>
+            <table id="battingTable">
+                <thead>
+                    <tr>
+                        <th>Matches</th><th>Runs</th><th>Average</th><th>Strike Rate</th>
+                        <th>Highest Score</th><th>4s</th><th>6s</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>37</td><td>908</td><td>36.78</td><td>183.75</td><td>76</td><td>9</td><td>12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="stats-section card-style">
+            <h2 class="sub-heading">Bowling Statistics</h2>
+            <table id="bowlingTable">
+                <thead>
+                  <tr>
+                    <th>Matches</th><th>Wickets</th><th>Overs</th>
+                    <th>Runs Conceded</th><th>Economy</th><th>Average</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>37</td><td>23</td><td>11.0</td><td>45</td><td>4.09</td><td>6.43</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+    </main>
+
+    <footer><p>&copy; 2025 Srushti Chavan.</p></footer>
+  </div>
+
+  <aside id="offCanvasMenu" class="off-canvas-sidebar" aria-hidden="true">
+    <button id="closeMenu" class="close-btn">Close ✕</button>
+    <nav>
+      <ul class="side-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="timeline.html">Cricket Timeline</a></li>
+        <li><a href="stats.html">Statistics</a></li>
+        <li><a href="highlights.html">Highlights</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
